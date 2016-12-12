@@ -1,0 +1,10 @@
+framework module KumulosSDK {
+  umbrella header "KumulosSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module KumulosSDK.Swift {
+    header "KumulosSDK-Swift.h"
+}

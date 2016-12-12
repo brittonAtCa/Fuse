@@ -2,4 +2,4 @@
 language: objective-c
 osx_image: xcode8.2
 xcode_project: Fuse.xcodeproj
-xcode_scheme: FuseTest
+xcode_scheme: Fuse

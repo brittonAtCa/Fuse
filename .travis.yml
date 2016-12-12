@@ -1,13 +1,6 @@
+
 language: objective-c
-
-branches:
- only:
- - master
-
+osx_image: xcode8.1
 xcode_project: Fuse.xcodeproj
 xcode_scheme: Fuse
-osx_image: xcode8.1
 xcode_sdk: iphonesimulator10.1
-
-script:
-- xcodebuild clean build test -project Fuse.xcodeproj -scheme Fuse

@@ -76,8 +76,6 @@ public class Fuse
         
         return "\n\n\n**************** Fuse ****************\n" +
         
-            "\n" + indentValue + "apiKey: " + apiKey +
-            "\n" + indentValue + "secretKey: " + secretKey +
             "\n" + indentValue + ServiceRegistry.registry().stateDescription(indent: indentValue) +
             
             "\n\n**************************************\n\n"

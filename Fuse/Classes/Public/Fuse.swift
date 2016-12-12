@@ -21,17 +21,7 @@ public class Fuse
 {
     // MARK: ** Properties **
     
-    /** 
-     *
-     */
-    private static var apiKey: String = "";
-    
-    
-    /**
-     *
-     */
-    private static var secretKey: String = ""
-    
+    // todo
     
     
     // MARK: Lifecycle

@@ -3,3 +3,7 @@ language: objective-c
 osx_image: xcode8.2
 xcode_project: Fuse.xcodeproj
 xcode_scheme: Fuse
+
+script:
+    - xcodebuild -workspace Fuse.xcodeproj -scheme Fuse -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+    - xctool test -workspace Fuse.xcodeproj -scheme FuseTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
